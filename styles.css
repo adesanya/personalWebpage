@@ -1,198 +1,57 @@
 .Menu
 {
-  width:100%;
-  display: inline-block;
   background-color: #000000;
-  position: fixed;
-  top:0;
-}
-.Home{
-  width:100%;
-  height: 600px;
-  background-color: #000000;
-  display: inline-block;
+  color: white;
 }
 
-.About{
-  width:100%;
-  height: 600px;
-  background-color: #FFFFFF;
-  display: inline-block;
-}
-
-.AboutText{
-  width:38%;
-  float: right;
-  margin-top: 1;
-  margin-right: 12%;
-  display: inline-block;
-  font-family:"Times New Roman";
-  font-size: 130%;
-}
-
-.AboutImg{
-  margin-top: 0%;
-  margin-left: 20%;
-  margin-bottom: 0%;
-  display: inline-block;
-}
-
-.AboutMe{
-  padding-bottom: 0px;
-  border-bottom-width: 0px;
-  margin-bottom: 0%;
-  margin-top: 2%;
-  margin-left: 64%;
-}
-
-.homeImg{
-  margin-left: 35%;
-  margin-right: 7%;
-  margin-top: 5%;
-  display: inline-block;
-}
-
-.Projects{
-  margin:0;
-  padding-top: 0;
-  width:100%;
-  height: 600px;
-  background-color: #1A1A1D;
-  position: relative;
-
-}
-
-.myprojects{
-  width:23.6%;
-  height: 500px;
+.projects{
   background-color: white;
-  display: inline-block;
-  border-left:11px;
-  margin-left:10px;
-  position: relative;
 
 }
 
-.projectImg{
-  position: relative;
+.sectionLabel{
+  font-family: 'Vollkorn', serif;
+  padding:1.5%;
 }
 
 .projectText{
-  margin: 4px;
-  position: relative;
-  font-size: 114%
-}
-
-
-.Patent{
-  width:100%;
-  height: 600px;
+  font-family: 'Vollkorn', serif;
+  font-size: 100%;
   background-color: white;
+  text-align: justify;
 }
 
-.projectLabel
-{
-  margin: 12px;
+.patentText{
+  font-family: 'Vollkorn', serif;
+  font-size: 130%;
+  padding: 5px 0 0 80px;
 }
 
-#patentText{
-  width:42%;
-  float: left;
-  margin-top: 3%;
-  margin-left: 7%;
-  display: inline-block;
-  font-family:"Times New Roman";
-  font-size: 146%;
-}
-
-#Patent{
-  float: right;
-  margin-right: 11%;
-  margin-top: 0;
-}
-
-.AwardandContact{
-  margin-left: 10%;
-  margin-top: 5%;
-  float: left;
-  display: inline-block;
-}
-
-.Awards{
-  width:100%;
-  height: 600px;
-  background-color: #1A1A1D;
+.first-letter {
+  font-size: 150%;
 }
 
 .AwardText{
-  color: White;
+  font-family: 'Vollkorn', serif;
   float: right;
-  width:42%;
-  margin-right: 8%;
-  font-size: 99%;
-}
-
-.ContactMe{
-  width:100%;
-  height:600px;
-  background-color: White;
-}
-
-.blank{
-  display: inline-block;
-  margin-left:36%;
-}
-.sections{
-  display: inline-block;
+  font-size: 105%;
   color: white;
-  margin:0.6%;
+  padding: 0 3% 3% 3%;
 }
 
-.Logo{
-  display: inline-block;
-  color: white;
-  margin-top: 0;
-  margin-left:0.9%;
+.form-control{
+  width: 60%;
+  margin: auto;
 }
 
-.inputInfo{
-  width: 308px;
-  height: 20px;
-  margin: .5%;
-  display: inline-block;
-  color: black;
-  border-style: solid;
-  font-size:14px;
-  border-color: #ffffff #ffffff #000000 #ffffff;
-
+.textarea{
+  min-height:320px;
+  min-width: 60%;
+  resize:none;
 }
 
-.inputInfoSubject{
-  color: black;
-  display: block;
-  width: 640px;
-  height: 20px;
-  margin: 1%;
-  border-style: solid;
-  font-size:14px;
-  border-color: #ffffff #ffffff #000000 #ffffff;
-}
-
-.inputInfoMessage{
-  border-style: solid;
-  border-color: #ffffff #ffffff #000000 #ffffff;
-}
-
-.SubmitBotton{
-  width: 46%;
-  height:8%
-  margin-top: 1%;
-  background-color: black;
-  border-radius:5%;
-  color: white;
-  font-size:14px;
-}
-
-body{
-  margin:0;
+.main-btn{
+  background:#1A1A1D;
+  min-width: 60%;
+  color:white;
 }
