@@ -1,86 +1,167 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Olaoluwa Adesanya</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="icon" href="/images/favicon.ico">
-  </head>
-  <body>
-    <div class="Menu">
-      <h1 class="Logo">Olaoluwa Adesanya</h1>
-      <h3 class="blank"></h3>
-      <h3 class="sections">HOME</h3>
-      <h3 class="sections">ABOUT</h3>
-      <h3 class="sections">PROJECTS</h3>
-      <h3 class="sections">PATENT</h3>
-      <h3 class="sections">AWARDS</h3>
-      <h3 class="sections">CONTACT</h3>
-    </div>
-    <div class="Home">
-      <img class="homeImg" src="/images/ola.png" alt="">
-    </div>
-    <div class="About">
-      <h1 class="AboutMe">About Me</h1>
-      <img class="AboutImg" src="/images/AboutOla.png" alt="">
-      <p class="AboutText">I grew up in Lagos Nigeria and moved to the United States in 2012 to study Computer Science at the University of California Irvine. While pursuing my undergraduate degree I developed an interest in music but found it extremely difficult to learn. Determined I hired a music tutor “Fay Roberts” to teach me how to play the saxophone, Fay at the time used to teach music to the blind and I was fascinated about how they were able to learn. While taking classes with her, Fay applied the same techniques of tapping and moving ones fingers and hands to teach me how to play, and as she did this the idea of a haptic glove to help indicate what fingers to move in-order to play a musical note was born. With my technical background I was able to bring the haptic glove to life and became fascinated with wearable technologies ever since. After completing my undergraduate degree I joined Microsoft as a software engineer and continued to develop the glove project independently, in 2017 I filed for an international patent which later got published in July 2019. </p>
-    </div>
-    <div class="Projects">
-        <h1 style="color: white;margin-left: 45%;padding-top: 15px; ">PROJECTS</h1>
-      <div class="myprojects">
-        <h2 class="projectLabel">Music</h2>
-        <img class="projectImg"src="/images/keyboardGloveIcon.png" alt="">
-        <p class="projectText">Haptic glove instructs wearer on what keys to play by vibrating the finger which corresponds to the musical note to be played. Over time user develops muscle memory and is able to play the song without help from the haptic glove.</p>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap Installation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="HOME" style="display: block;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:black;">
+      <a class="navbar-brand" href="" style="font-family: 'Nanum Myeongjo', serif; font-size: 160%;">Olaoluwa Adesanya</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="color: white; font-family: 'Prata', serif;" href="#HOME">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white; font-family: 'Prata', serif;" href="#ABOUT">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white; font-family: 'Prata', serif;" href="#PROJECTS">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white; font-family: 'Prata', serif;" href="#PATENT">PATENT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white; font-family: 'Prata', serif;" href="#AWARDS">AWARDS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white; font-family: 'Prata', serif;" href="#CONTACT">CONTACT</a>
+          </li>
+        </ul>
       </div>
-      <div class="myprojects">
-        <h2 class="projectLabel">Hand Tracking and Haptics</h2>
-        <img class="projectImg"src="/images/HandTracking.png" alt="">
-        <p class="projectText">With gyroscopes and accelerometers coupled with haptic actuators positioned around the palm, the glove allows you to bring your hands into the digital world while inversely communicating your digital interactions back to you through vibrations.</p>
+    </nav>
+  </section>
+  <section class="text-center" style="background-color:black; padding-top: 60px;">
+    <img class="" src="/images/ola.png" alt="" style="">
+  </section>
+  <section id="ABOUT">
+    <h1 class="text-center sectionLabel">About Me</h1>
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <img class="" src="/images/AboutOla.png" alt="">
       </div>
-      <div class="myprojects">
-        <h2 class="projectLabel" >AI Enabled Interactions</h2>
-        <img class="projectImg"src="/images/AiInteractions.png" alt="">
-        <p class="projectText">Glove uses a camera to recognize object a user is pointing to using pre trained AI/ML models and allows user to control the device using hand gestures, examples include pointing to a printer to send a document to be printed or pointing to a fan to turn it on.</p>
-      </div>
-      <div class="myprojects">
-        <h2 class="projectLabel">Palm Vision (Accessibility)</h2>
-        <img class="projectImg"src="/images/PalmVision.png" alt="">
-        <p class="projectText">Glove uses camera and depth sensor to gather information on objects and obstacles in front of users path and converts the data gathered to vibrations for proximity from obstacles and audio feedback for identification of objects.</p>
+      <div class="col-lg-6">
+        <p class="" style="text-align: justify; font-family: 'Cormorant Garamond', serif; font-size:130%; padding:1% 5% 5% 5%;">I grew up in Lagos, Nigeria and moved to the United States in 2012 to study Computer Science at The University of
+          California, Irvine. While pursuing my undergraduate degree I developed an interest in music, but found it difficult to learn. Determined, I hired a music tutor, “Fay Roberts”, to teach me how to play the saxophone. At the time, Fay taught
+          music to the blind and I was fascinated by how they were able to learn. In my sessions with Fay, she applied the same techniques of tapping and moving my fingers and hands to teach me how to play. Through this, the idea of a haptic glove to
+          help indicate what fingers to move in-order to play a musical note was born. With my technical background I was able to bring the haptic glove to life and became fascinated with wearable technologies. After completing my undergraduate
+          degree, I joined Microsoft as a Software Engineer and continued to develop the wearable project independently. In 2017 I filed for an international patent which was later published in July 2019.</p>
       </div>
     </div>
-    <div class="Patent">
-      <h1 style="color: black;margin-left: 4%;padding-top: 15px;"">Patent</h1>
-      <p id="patentText">Wearable computing apparatus for augmented reality, virtual reality, and artificial intelligence interactions, and systems and methods relating thereto. Generally, a wearable computing apparatus is provided, wherein the apparatus can be worn on a user’s hand and comprises a first subassembly including one or more processors, non-transitory memory for storing instructions, at least one haptic motor, and a first set of sensors adapted to sense positional characteristics of the user’s hand. In some embodiments, a second subassembly configured to couple with the first subassembly is provided. The second subassembly can include a plurality of flexible leads adapted to attach to the user’s fingers, and wherein each flexible lead includes a haptic motor and a second set of sensors adapted to sense a plurality of positional characteristics associated with each of the user’s fingers.</p>
-      <img id="Patent"src="/images/glove.png" alt="">
+  </section>
+  <section id="PROJECTS" style="background-color: black;">
+    <h1 style="color: white; text-align: center; font-family: 'Vollkorn', serif;">PROJECTS</h1>
+    <div class="row text-justified" style="background-color: black; padding-bottom: 1%">
+      <div class="col projects" style="margin:.5%;">
+        <h2 class="" style="font-family: 'Vollkorn', serif; font-size:160%;">Music</h2>
+        <img class="projectImg" src="/images/keyboardGloveIcon.png" alt="">
+        <p class="projectText">Haptic glove instructs wearer on what keys to play by vibrating the finger which corresponds to the musical note to be played. Over time user develops muscle memory and is able to play the song without help from the
+          haptic glove.</p>
+      </div>
+      <div class="col projects" style="margin:.5%;">
+        <h2 class="" style="font-family: 'Vollkorn', serif; font-size:160%;">Hand Tracking and Haptics</h2>
+        <img class="projectImg" src="/images/HandTracking.png" alt="">
+        <p class="projectText">With gyroscopes and accelerometers coupled with haptic actuators positioned around the palm, the glove allows you to bring your hands into the digital world while inversely communicating your digital interactions back
+          to you through vibrations.</p>
+      </div>
+      <div class="col projects" style="margin:.5%;">
+        <h2 class="" style="font-family: 'Vollkorn', serif; font-size:160%;">AI Enabled Interactions</h2>
+        <img class="projectImg" src="/Ola/images/AiInteractions.png" alt="">
+        <p class="projectText">The glove uses a camera to recognize the object a user is pointing to using pre trained machine learning models and allows user to control the device using hand gestures. Examples include pointing to a printer to send a document to be printed or pointing to a fan to turn it on.</p>
+      </div>
+      <div class="col projects" style="margin:.5%;">
+        <h2 class="" style="font-family: 'Vollkorn', serif; font-size:160%;">Palm Vision (Accessibility)</h2>
+        <img class="projectImg" src="/Ola/images/PalmVision.png" alt="">
+        <p class="projectText">The glove uses a camera, and a depth sensor to gather information on objects or obstacles in front of the users path. It converts the data gathered to vibrations, alerting the user on proximity from obstacles to avoid collision and also  provides audio feedback to describe objects recognized.</p>
+      </div>
     </div>
-    <div class="Awards">
-      <h1 style="color:#ddca6b;margin-left: 4%;padding-top: 15px;">Awards</h1>
-      <img class="AwardandContact" src="/images/Award.png" alt="">
-      <p class="AwardText">
-        <span style="color:#ddca6b;">International Patent Publication July 4, 2019</span> Wearable computing apparatus for augmented reality, virtual reality and artificial intelligence interactions, and methods relating thereto.
-      </p>
-      <p class="AwardText">
-        <span style="color:#ddca6b;">Gateway to Invention 2018</span> In this edition of UCI Magazine, “Gateway to Invention,” we feature the campus’s entrepreneurial spirit and culture of innovation. Our cover story, “Ingenuity Central,” details how UCI Applied Innovation assists entrepreneurs in creating startups and products that benefit society, while “Inventing a Better Future” showcases a variety of designs, devices and discoveries by faculty, students and alumni. In “Enterprising Undergraduates,” you’ll learn how the ANTrepreneur Center motivates and equips students to launch ventures long before they graduate. And finally, “A Special Force” introduces an alumnus whose life-changing injuries led him to establish the Green Beret Foundation to help his fellow veterans.
-      </p>
-      <p class="AwardText">
-        <span style="color:#ddca6b;">Winner of the 2017 Butterworth Product Development Competition</span> at the Donald Bren School of Information and Computer Sciences. This is a product development competition designed to encourage the creation of new technologies with potential for commercialization. Ideas and products are evaluated on their technological merits and potential to impact the marketplace.
-      </p>
-      <p class="AwardText">
-        <span style="color:#ddca6b;">Prototype of the Year 2017</span> On May 29, teams and individuals were celebrated for their innovative strides, excellence, and embodying the spirit of entrepreneurship at the fourth annual ANTrepreneur of the Year Awards.
-      </p>
+  </section>
+  <section id="PATENT">
+    <h1 class="text-center sectionLabel" style="color: black;">Patent</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="patentText"><span class="first-letter">W</span>earable computing apparatus for augmented reality, virtual reality, and artificial intelligence interactions, and systems and methods relating thereto. Generally, a wearable computing
+          apparatus is provided, wherein the
+          apparatus can be worn on a user’s hand and comprises a first subassembly including one or more processors, non-transitory memory for storing instructions, at least one haptic motor, and a first set of sensors adapted to sense positional
+          characteristics of the user’s hand. In some embodiments, a second subassembly configured to couple with the first subassembly is provided. The second subassembly can include a plurality of flexible leads adapted to attach to the user’s
+          fingers,
+          and wherein each flexible lead includes a haptic motor and a second set of sensors adapted to sense a plurality of positional characteristics associated with each of the user’s fingers. <a
+            href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2019133521">See more</a></p>
+      </div>
+      <div class="col-lg-6" style="text-align: center;">
+        <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2019133521">
+          <img style="padding-top: 0;" src="/Ola/images/glove.png" alt="">
+        </a>
+      </div>
     </div>
-    <div class="ContactMe">
-      <center>
-      <h1>LET’S CONNECT</h1>
-      <br>
-      <form>
-        <input class="inputInfo" type="text" name="name" placeholder="Name">
-        <input class="inputInfo" type="text" name="email" placeholder="Email">
-        <input class="inputInfoSubject" type="text" name="Subject" placeholder="Subject">
-        <textarea class="inputInfoMessage" name="message" placeholder="Type your message here ...." rows="20" cols="90"></textarea><br>
-        <input class="SubmitBotton" type="Submit" value="Submit"><br>
-      </form>
-    </center>
+  </section>
+  <section id="AWARDS" style="background-color: #1A1A1D;">
+    <h1 class="text-center sectionLabel" style="color:#ddca6b; text-align: center; padding-top: 15px;  ">Awards</h1>
+    <div class="row" style="background-color: #1A1A1D;">
+      <div class="col-lg-6 text-center" style="margin:auto;">
+        <img src="/images/Award.png" alt="">
+      </div>
+      <div class="col-lg-6 AwardText">
+        <p class="">
+          <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2019133521">
+            <span style="color:#ddca6b;">International Patent Publication July 4, 2019</span></a> Wearable computing apparatus for augmented reality, virtual reality and artificial intelligence interactions, and methods relating thereto.
+        </p>
+        <p class="">
+          <a href="https://issuu.com/ucimagazine/docs/uci_magazine_winter_2018/34">
+            <span style="color:#ddca6b;">Gateway to Invention 2018</span></a> In this edition of UCI Magazine, “Gateway to Invention,” we feature the campus’s entrepreneurial spirit and culture of innovation. Our cover story, “Ingenuity Central,”
+          details
+          how
+          UCI Applied Innovation assists entrepreneurs in creating startups and products that benefit society, while “Inventing a Better Future” showcases a variety of designs, devices and discoveries by faculty, students and alumni. In “Enterprising
+          Undergraduates,” you’ll learn how the ANTrepreneur Center motivates and equips students to launch ventures long before they graduate. And finally, “A Special Force” introduces an alumnus whose life-changing injuries led him to establish the
+          Green Beret Foundation to help his fellow veterans.
+        </p>
+        <p class="">
+          <a href="http://tech.uci.edu/competitions/past-2017.php">
+            <span style="color:#ddca6b;">Winner of the 2017 Butterworth Product Development Competition</span></a> at the Donald Bren School of Information and Computer Sciences. This is a product development competition designed to encourage the
+          creation
+          of
+          new technologies with potential for commercialization. Ideas and products are evaluated on their technological merits and potential to impact the marketplace.
+        </p>
+        <p class="">
+          <span style="color:#ddca6b;">Prototype of the Year 2017</span> On May 29, teams and individuals were celebrated for their innovative strides, excellence, and embodying the spirit of entrepreneurship at the fourth annual ANTrepreneur of the
+          Year Awards.
+        </p>
+      </div>
     </div>
-  </body>
+  </section>
+  <section id="CONTACT" class="text-center" style="padding-bottom: 3%">
+    <h1 class="text-center sectionLabel">LET’S CONNECT</h1>
+    <form role="form" id="contact-form" class="contact-form" action="mailto:ola@palmplug.com" method="post" enctype="text/plain">
+      <div class="row">
+        <div class="col-md-12" style="padding-bottom: .5%">
+          <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name">
+        </div>
+        <div class="col-md-12" style="padding-bottom: .5%">
+          <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+        </div>
+        <div class="col-md-12">
+          <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn main-btn pull-right">Send a message</button>
+        </div>
+      </div>
+    </form>
+  </section>
+</body>
 </html>
